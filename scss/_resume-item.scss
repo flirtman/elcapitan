@@ -9,6 +9,26 @@ section.resume-section {
     }
   }
 }
+section#about {
+  background: url(../img/bg-about.jpg) no-repeat center center fixed #000; 
+  background-size: cover;
+
+  min-width: 100%;
+  color: white;
+  h1{
+    color: #fff;
+  }
+  li {
+    line-height: 150%;
+  }
+  .text-primary{
+    color: #f35a5a !important;
+  }
+}
+
+
+
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
